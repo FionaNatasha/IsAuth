@@ -9,7 +9,7 @@ let axiosURL = {
   getPosts(count) {
  
     return Axios.get(`/posts?_page=${count}`)
-      .then((result) => {return console.log('axios',count),result.data })
+      .then((result) => {return result.data })
      
   }
 }

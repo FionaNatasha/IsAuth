@@ -5,7 +5,7 @@ import css from './module/Login.module.css'
 
 
 function Login(props) {
-let ErrorString = ''
+
 
     let enterName = (e) => {
         props.enterName(e.currentTarget.value)

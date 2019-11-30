@@ -6,7 +6,6 @@ let Posts = (props) => {
 
 
   let loadFunc = (n) => { 
-console.log(n)
     props.thunkActionCreator(n)
   }
 
