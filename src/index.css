@@ -5,9 +5,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url(https://img3.goodfon.ru/original/1920x1080/b/28/karta-cherno-belaya-chasovye.jpg) no-repeat center center fixed ;
+  background-size: cover;
+  height: 100%;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.footer{
+  padding:20px
 }

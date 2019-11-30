@@ -1,0 +1,33 @@
+.Posts{
+    border-radius: 20px;
+    background: rgba(167, 230, 43, 0.5);
+    width: 60%;
+    margin: 0px auto;
+    margin-top: 10px;
+  padding: auto
+}
+
+.Posts .Post{
+    border: 0.2px solid rgb(23, 72, 100);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin:5px;
+    text-align:center
+}
+
+ .Post :first-child{
+    border-radius: 5px 5px 0px 0px;
+
+   
+}
+.Post .Title{
+  
+  font-family: 'Roboto Slab', serif;
+  font-weight: bolder;
+  font-size: 1.5em
+  
+}
+
+.Posts .Body{
+  text-align: left;
+  line-height: 2
+}

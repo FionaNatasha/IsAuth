@@ -1,0 +1,60 @@
+.FormDiv{
+    width: 20%;
+    margin:10px auto;
+    padding:  auto;
+    border:1px solid #d6da10;
+    border-radius: 20px
+}
+
+.FormDiv .Form{
+    margin: 10px ;
+}
+
+
+
+.FormDiv .Form input{
+      border:0.5px solid rgba(240, 224, 8, 0.857);
+    width: 90%;
+}
+
+.FormDiv .FormError input{
+    border:2px solid rgba(240, 8, 8, 0.857);
+  width: 90%;
+}
+
+.FormDiv .Form input[type="mail"]{
+    border-radius:  5px 5px 0px 0px; 
+}
+
+.FormDiv .Form input[type="password"]{
+    border-radius: 0px 0px 5px 5px; 
+}
+
+.FormDiv .Form .Button{
+    margin:auto;
+    text-align: center;
+    
+    
+}
+
+.FormDiv .Form .Button button{
+    text-decoration: none;
+    outline: none;
+   /* // color: linear-gradient(180deg, #ff9100, #e2e621, #aed503, #d8cd2f); */
+    display: inline-block;
+    position: relative;
+    padding: 5px 10px;
+    border: 1px solid;border-radius: 10px;
+    border-image: linear-gradient(180deg, #ff9100, #e2e621, #aed503, #d8cd2f);
+    margin: 10px 20px;   font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: 2px;
+    transition: .8s cubic-bezier(.165,.84,.44,1);
+    background: linear-gradient(180deg, #ff9100, #e2e621, #aed503, #d8cd2f); }
+
+.Form .Error{
+    color:red;
+    font-weight: bolder;
+}
+
